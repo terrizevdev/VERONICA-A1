@@ -1,3 +1,4 @@
+
 module.exports = {
     name: {
         main: 'terri API !!',
@@ -16,14 +17,15 @@ module.exports = {
     // New: Global maintenance mode
     maintenance: false,
     
-    // New: Individual API status
+    // New: Individual API status - ADD 'play' HERE
     apiStatus: {
         'youtube': 'online',
         'ytmp3': 'online', 
         'ytmp4': 'online',
         'snackvideo': 'online',
         'android1': 'online',
-        'apkcombo': 'online'
+        'apkcombo': 'online',
+        'play': 'online'  // ← ADD THIS LINE
         // Add more APIs as needed
     }
 };
