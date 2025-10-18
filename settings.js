@@ -15,7 +15,7 @@ module.exports = {
         }
     ],
     // New: Global maintenance mode
-    maintenance: false,
+    maintenance: true,
     
     // New: Individual API status - ADD 'play' HERE
     apiStatus: {
